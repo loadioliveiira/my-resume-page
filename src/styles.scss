@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  font-family:'Courier New', Courier, monospace;
+}
+
+.header{
+  height: 40px;
+  background-color: #f4f4f4;
+}
+
+.content {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.footer{
+  align-items: center;
+  background-color: #f4f4f4;
+  bottom: 0;
+  color: #616161;
+  display: flex;
+  font-size: 10px;
+  height: 35px;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+h1{
+  font-family: 'Rubik Glitch', cursive;
+}
