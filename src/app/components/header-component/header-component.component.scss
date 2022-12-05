@@ -1,0 +1,27 @@
+.header-content {
+    background: -webkit-linear-gradient(180deg, #aecf79 50%, #000 50%);
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+
+  img {
+    background-color: #fff;
+    width: 50px
+  };
+}
+
+.menu-itens {
+    display: flex;
+    gap: 2rem;
+    margin-right: 3rem;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+}
